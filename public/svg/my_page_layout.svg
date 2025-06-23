@@ -1,0 +1,41 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" xmlns="http://www.w3.org/2000/svg">
+<rect id="sidebar" x="0" y="0" width="220" height="1024" fill="#F4F6F8" stroke="#D0D5DA" stroke-width="1"/>
+<rect id="tab_0" x="0" y="0" width="220" height="120" fill="#FFEEDB" stroke="#C0C6CD" stroke-width="1"/>
+<text id="tab_label_0" x="110.0" y="70" font-family="Inter, sans-serif" font-size="18" fill="#333" text-anchor="middle">Profile</text>
+<rect id="tab_1" x="0" y="120" width="220" height="120" fill="#E6F4FF" stroke="#C0C6CD" stroke-width="1"/>
+<text id="tab_label_1" x="110.0" y="190" font-family="Inter, sans-serif" font-size="18" fill="#333" text-anchor="middle">Reward &amp; History</text>
+<rect id="tab_2" x="0" y="240" width="220" height="120" fill="#EAF7EE" stroke="#C0C6CD" stroke-width="1"/>
+<text id="tab_label_2" x="110.0" y="310" font-family="Inter, sans-serif" font-size="18" fill="#333" text-anchor="middle">Creators</text>
+<rect id="tab_3" x="0" y="360" width="220" height="120" fill="#F5E8FF" stroke="#C0C6CD" stroke-width="1"/>
+<text id="tab_label_3" x="110.0" y="430" font-family="Inter, sans-serif" font-size="18" fill="#333" text-anchor="middle">Creator Hub</text>
+<rect id="content_bg" x="220" y="0" width="1220" height="1024" fill="#FFFFFF" stroke="#D0D5DA" stroke-width="1"/>
+<rect id="identity_card" x="260" y="40" width="380" height="180" fill="#FAFAFA" stroke="#B0B6BD" stroke-width="1"/>
+<rect id="avatar_placeholder" x="280" y="60" width="120" height="120" fill="#D9D9D9" stroke="#AAA" stroke-width="1"/>
+<text id="user_name" x="420" y="120" font-family="Inter, sans-serif" font-size="28" fill="#003366" text-anchor="start">User Name</text>
+<text id="world_id_badge" x="420" y="160" font-family="Inter, sans-serif" font-size="18" fill="#00804B" text-anchor="start">World ID ✅</text>
+<text id="badge_title" x="260" y="260" font-family="Inter, sans-serif" font-size="22" fill="#333" text-anchor="start">Badges</text>
+<rect id="badge_0_0" x="260" y="300" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_0_1" x="360" y="300" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_0_2" x="460" y="300" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_0_3" x="560" y="300" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_0_4" x="660" y="300" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_0_5" x="760" y="300" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_1_0" x="260" y="400" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_1_1" x="360" y="400" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_1_2" x="460" y="400" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_1_3" x="560" y="400" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_1_4" x="660" y="400" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="badge_1_5" x="760" y="400" width="80" height="80" fill="#F0F4F8" stroke="#B0C4D0" stroke-width="1"/>
+<rect id="stat_0" x="920" y="300" width="200" height="80" fill="#FAFAFA" stroke="#C0C6CD" stroke-width="1"/>
+<text id="stat_label_0" x="940" y="345" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="start">Points</text>
+<rect id="stat_1" x="920" y="400" width="200" height="80" fill="#FAFAFA" stroke="#C0C6CD" stroke-width="1"/>
+<text id="stat_label_1" x="940" y="445" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="start">Quests</text>
+<rect id="stat_2" x="920" y="500" width="200" height="80" fill="#FAFAFA" stroke="#C0C6CD" stroke-width="1"/>
+<text id="stat_label_2" x="940" y="545" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="start">Following</text>
+<rect id="stat_3" x="920" y="600" width="200" height="80" fill="#FAFAFA" stroke="#C0C6CD" stroke-width="1"/>
+<text id="stat_label_3" x="940" y="645" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="start">Member Since</text>
+<rect id="account_settings" x="260" y="520" width="1140" height="120" fill="#F7F7F7" stroke="#C0C6CD" stroke-width="1"/>
+<text id="account_settings_text" x="280" y="590" font-family="Inter, sans-serif" font-size="20" fill="#0055AA" text-anchor="start">Account Settings →</text>
+<rect id="reward_history_panel" x="240" y="660" width="1180" height="300" fill="#FFF5E6" stroke="#FFCC99" stroke-width="1"/>
+<text id="reward_history_note" x="260" y="690" font-family="Inter, sans-serif" font-size="18" fill="#CC6600" text-anchor="start">[Reward &amp; History content appears here when tab selected]</text>
+</svg>
