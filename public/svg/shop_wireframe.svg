@@ -1,0 +1,185 @@
+<!-- =============================================================
+  HI‑FI SHOP PAGE MOCKUP (SVG)  —  Desktop 1440px
+  -------------------------------------------------------------
+  • Built with the earlier style‑guide colors
+  • Ready to import into Figma as vector artwork
+  • All text layers are editable; replace placeholders with real copy
+  ------------------------------------------------------------- -->
+<svg viewBox="0 0 1440 2400" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Pretendard, Helvetica, Arial, sans-serif">
+  <style>
+    :root {
+      --primary-500:#006C55;
+      --primary-300:#19B68C;
+      --success-50:#E8F7F1;
+      --gray-900:#1B1B1B;
+      --gray-600:#505050;
+      --gray-100:#F5F5F5;
+    }
+    .bg-primary    { fill:var(--primary-500); }
+    .bg-accent     { fill:var(--primary-300); }
+    .bg-card       { fill:#FFFFFF; stroke:#E0E0E0; stroke-width:1.5; rx:16; }
+    .bg-thumb      { fill:#D9D9D9; }
+    .btn           { fill:var(--primary-300); rx:8; }
+    .btn-disabled  { fill:#BDBDBD; rx:8; }
+    .txt-lg        { font-size:24px; font-weight:700; fill:var(--gray-900); }
+    .txt-md        { font-size:16px; fill:var(--gray-600); }
+    .txt-sm        { font-size:12px; fill:var(--gray-600); }
+    .badge         { fill:#FFFFFF; stroke:var(--primary-300); stroke-width:1.5; rx:24; font-size:14px; font-weight:600; }
+  </style>
+
+  <!-- ───────────────────────── NAVBAR ───────────────────────── -->
+  <g id="navbar">
+    <rect class="bg-primary" x="0" y="0" width="1440" height="96" />
+    <!-- Logo -->
+    <rect x="32" y="28" width="120" height="40" fill="#FFFFFF" rx="8" />
+    <text x="46" y="54" font-size="18" font-weight="700" fill="var(--primary-500)">LOGO</text>
+    <!-- Search Bar -->
+    <rect x="200" y="20" width="600" height="56" fill="#FFFFFF" rx="8" />
+    <text x="220" y="53" class="txt-sm">Search for items…</text>
+    <!-- CTA -->
+    <rect x="830" y="20" width="180" height="56" class="bg-accent" />
+    <text x="870" y="53" font-size="16" font-weight="600" fill="#FFFFFF">Order now</text>
+    <!-- Points badge -->
+    <rect x="1030" y="24" width="110" height="48" class="badge" />
+    <text x="1050" y="54" fill="var(--primary-300)">1,200&nbsp;pts</text>
+    <!-- Cart -->
+    <rect x="1160" y="24" width="48" height="48" fill="#FFFFFF" rx="8" />
+    <text x="1174" y="54" font-size="20" fill="var(--primary-500)">🛒</text>
+    <!-- Avatar -->
+    <circle cx="1240" cy="48" r="24" fill="#FFFFFF" stroke="var(--primary-300)" stroke-width="1.5" />
+  </g>
+
+  <!-- ───────────────────────── YOU MIGHT NEED SECTION ───────────────────────── -->
+  <g id="you-might-need" transform="translate(0,128)">
+    <text x="80" y="0" class="txt-lg">You might need</text>
+    <text x="1360" y="0" text-anchor="end" font-size="14" fill="var(--primary-300)">See more →</text>
+
+    <!-- Cards Row -->
+    <g id="item-cards" transform="translate(80,32)">
+      <!-- Helper function simulated by manual placements -->
+      <!-- Card prototype -->
+      <!-- Card 1-->
+      <g transform="translate(0,0)">
+        <rect class="bg-card" width="170" height="310" />
+        <rect class="bg-thumb" x="25" y="24" width="120" height="120" rx="12" />
+        <text x="85" y="88" text-anchor="middle" font-size="10" fill="#777">IMG</text>
+        <text class="txt-md" x="16" y="180">Organic banana</text>
+        <text class="txt-sm" x="16" y="202">500&nbsp;gm</text>
+        <text x="16" y="230" font-size="18" font-weight="700" fill="var(--gray-900)">$17.29</text>
+        <rect class="btn" x="16" y="250" width="138" height="40" />
+        <text x="85" y="278" text-anchor="middle" font-size="20" fill="#FFFFFF">＋</text>
+      </g>
+      <!-- Card 2 -->
+      <g transform="translate(194,0)">
+        <use href="#item-cards g" />
+        <rect class="bg-card" width="170" height="310" />
+        <rect class="bg-thumb" x="25" y="24" width="120" height="120" rx="12" />
+        <text x="85" y="88" text-anchor="middle" font-size="10" fill="#777">IMG</text>
+        <text class="txt-md" x="16" y="180">Fresh tomato</text>
+        <text class="txt-sm" x="16" y="202">1&nbsp;kg</text>
+        <text x="16" y="230" font-size="18" font-weight="700" fill="var(--gray-900)">$9.50</text>
+        <rect class="btn" x="16" y="250" width="138" height="40" />
+        <text x="85" y="278" text-anchor="middle" font-size="20" fill="#FFFFFF">＋</text>
+      </g>
+      <!-- Card 3 -->
+      <g transform="translate(388,0)">
+        <rect class="bg-card" width="170" height="310" />
+        <rect class="bg-thumb" x="25" y="24" width="120" height="120" rx="12" />
+        <text x="85" y="88" text-anchor="middle" font-size="10" fill="#777">IMG</text>
+        <text class="txt-md" x="16" y="180">Chocolate bar</text>
+        <text class="txt-sm" x="16" y="202">60&nbsp;gm</text>
+        <text x="16" y="230" font-size="18" font-weight="700" fill="var(--gray-900)">$2.99</text>
+        <rect class="btn" x="16" y="250" width="138" height="40" />
+        <text x="85" y="278" text-anchor="middle" font-size="20" fill="#FFFFFF">＋</text>
+      </g>
+      <!-- Card 4 -->
+      <g transform="translate(582,0)">
+        <rect class="bg-card" width="170" height="310" />
+        <rect class="bg-thumb" x="25" y="24" width="120" height="120" rx="12" />
+        <text x="85" y="88" text-anchor="middle" font-size="10" fill="#777">IMG</text>
+        <text class="txt-md" x="16" y="180">Almond milk</text>
+        <text class="txt-sm" x="16" y="202">1&nbsp;L</text>
+        <text x="16" y="230" font-size="18" font-weight="700" fill="var(--gray-900)">$4.80</text>
+        <rect class="btn" x="16" y="250" width="138" height="40" />
+        <text x="85" y="278" text-anchor="middle" font-size="20" fill="#FFFFFF">＋</text>
+      </g>
+      <!-- Card 5 -->
+      <g transform="translate(776,0)">
+        <rect class="bg-card" width="170" height="310" />
+        <rect class="bg-thumb" x="25" y="24" width="120" height="120" rx="12" />
+        <text x="85" y="88" text-anchor="middle" font-size="10" fill="#777">IMG</text>
+        <text class="txt-md" x="16" y="180">Green grapes</text>
+        <text class="txt-sm" x="16" y="202">750&nbsp;gm</text>
+        <text x="16" y="230" font-size="18" font-weight="700" fill="var(--gray-900)">$6.50</text>
+        <rect class="btn" x="16" y="250" width="138" height="40" />
+        <text x="85" y="278" text-anchor="middle" font-size="20" fill="#FFFFFF">＋</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ───────────────────────── FEATURED STORE SECTION ───────────────────────── -->
+  <g id="featured-store" transform="translate(0,560)">
+    <text x="80" y="0" class="txt-lg">Featured store</text>
+    <text x="1360" y="0" text-anchor="end" font-size="14" fill="var(--primary-300)">Visit all stores →</text>
+
+    <g transform="translate(80,40)">
+      <!-- card template function manual -->
+      <!-- card 1 -->
+      <g transform="translate(0,0)">
+        <rect width="280" height="160" rx="16" fill="#FFF7E8" />
+        <circle cx="70" cy="80" r="40" fill="#FFFFFF" stroke="#FFCE8A" stroke-width="3" />
+        <text x="130" y="70" class="txt-md">Crush grocery</text>
+        <text x="130" y="100" class="txt-sm">⚡ Delivery in 12 min</text>
+      </g>
+      <!-- card 2 -->
+      <g transform="translate(320,0)">
+        <rect width="280" height="160" rx="16" fill="#E8F2FF" />
+        <circle cx="70" cy="80" r="40" fill="#FFFFFF" stroke="#93B4FF" stroke-width="3" />
+        <text x="130" y="70" class="txt-md">Delivery market</text>
+        <text x="130" y="100" class="txt-sm">⚡ Delivery in 10 min</text>
+      </g>
+      <!-- card 3 -->
+      <g transform="translate(640,0)">
+        <rect width="280" height="160" rx="16" fill="#E9FBF4" />
+        <circle cx="70" cy="80" r="40" fill="#FFFFFF" stroke="#7CD9AC" stroke-width="3" />
+        <text x="130" y="70" class="txt-md">Quality product</text>
+        <text x="130" y="100" class="txt-sm">⚡ Delivery in 15 min</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ───────────────────────── PRODUCT DETAIL MODAL ───────────────────────── -->
+  <g id="product-detail" transform="translate(240,960)">
+    <rect width="960" height="640" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2" rx="24" />
+    <!-- Image main -->
+    <rect x="60" y="80" width="360" height="360" class="bg-thumb" rx="16" />
+    <!-- Thumbs -->
+    <g transform="translate(60,480)">
+      <rect class="bg-thumb" width="60" height="80" rx="8" />
+      <g transform="translate(80,0)"><rect class="bg-thumb" width="60" height="80" rx="8" /></g>
+      <g transform="translate(160,0)"><rect class="bg-thumb" width="60" height="80" rx="8" /></g>
+      <g transform="translate(240,0)"><rect class="bg-thumb" width="60" height="80" rx="8" /></g>
+    </g>
+    <!-- Info -->
+    <g transform="translate(460,80)">
+      <text class="txt-lg" y="0">Organic banana</text>
+      <!-- Rating -->
+      <text y="40" font-size="16" fill="#FFB400">★★★★★ 4.9</text>
+      <!-- Price -->
+      <text y="80" font-size="28" font-weight="700" fill="var(--gray-900)">$17.29</text>
+      <!-- CTA Buttons -->
+      <rect class="btn" y="120" width="220" height="56" />
+      <text x="110" y="155" text-anchor="middle" font-size="16" font-weight="600" fill="#FFFFFF">Add to bucket</text>
+      <rect class="btn-disabled" y="190" width="220" height="56" />
+      <text x="110" y="225" text-anchor="middle" font-size="16" font-weight="600" fill="#FFFFFF">Wishlist</text>
+      <!-- Description block -->
+      <rect class="bg-thumb" y="260" width="440" height="260" rx="12" />
+    </g>
+  </g>
+
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <g id="footer" transform="translate(0,1900)">
+    <rect x="0" y="0" width="1440" height="200" fill="var(--primary-500)" />
+    <text x="720" y="100" text-anchor="middle" font-size="16" fill="#FFFFFF">© 2025 UBI Platform — All rights reserved</text>
+  </g>
+</svg>
